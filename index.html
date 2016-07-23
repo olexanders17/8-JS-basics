@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 8</title>
+
+    <style>
+        button {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+  <pre>  1. Prepare and show message in console.
+    - Create variables for person name, time, place and event
+    - Event should be entered using prompt
+    // tip: var smth = prompt("Please enter value", "Default value");
+    - Other variables should be set as you wish
+    - Join all values to one sentence and show it in console
+    // example: Valera has a meeting today at 17:00 somewhere in Warsaw.
+    </pre>
+</div>
+<button onclick="setMeeting()">Answer 1</button>
+
+
+<div>
+  <pre>  2. Find and show (using alert) distance between 2 points.
+  - Create variables for x1, y1, x2, y2, result
+  - Coordinates of second point (X2, Y2) should be entered using prompt
+  - Other variables should be set as you wish
+  - Find distance, set it to result variable
+  - Alert the result with description
+	// example: The distance between points A(0,1) and B(0,11) is 10.
+    </pre>
+</div>
+<button onclick="findDistance()">Answer 2</button>
+
+
+<div>
+  <pre>  3. Show in console using FOR.
+  #
+  ##
+  ###
+  ####
+  #####
+  ######
+  #######
+  ########
+  #########
+  ##########
+    </pre>
+</div>
+
+<button onclick="showPrarmid()">Answer 3</button>
+
+
+
+<div>
+  <pre>  4. Show in console using WHILE.
+  # # # # #
+   # # # # #
+  # # # # #
+   # # # # #
+  # # # # #
+   # # # # #
+  # # # # #
+    </pre>
+</div>
+<button onclick="showSquare()">Answer 4</button>
+
+<div><pre>5. Create “Guess number” game.
+    - Create variable for random number (from 0 to 100) and set it using Math.random()
+    // tip: Math.random() returns number from 0 to 1, so you have to
+    // multiply it by 100 and then convert result to integer.
+    - Ask user (with prompt) to guess the number
+    - If entered number doesn’t equal to our variable, alert “Our number is higher, try again” or “Our number is lower, try again”. Then ask user to enter number again.
+    - If user guessed the number, show message “You are right, the number is [number]”.</pre></div>
+
+<button onclick="guessGame()">Answer 5</button>
+
+<script src="app.js"> </script>
+</body>
+</html>
