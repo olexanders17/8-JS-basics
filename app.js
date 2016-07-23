@@ -11,11 +11,12 @@
 
 setMeeting = function () {
     var meetingItem = {name: "", place: "", time: "", additionalItem: ""};
-    var meetingMessage = "My name is " + meetingItem.name + " and I am whaiting you on meeting in " + meetingItem.place + " at " + meetingItem.time + "i will see you with " + meetingItem.additionalItem;
+    
     meetingItem.name = prompt("What is your name : ", "Unknown");
     meetingItem.place = prompt("What is your meeting place: ", "London");
     meetingItem.time = prompt("What is your meeting place: ", "10 P.M.");
     meetingItem.additionalItem = prompt("Please take something special : ", "apple");
+    var meetingMessage = "My name is " + meetingItem.name + " and I am waiting you on meeting in " + meetingItem.place + " at " + meetingItem.time + "I will see you with " + meetingItem.additionalItem;
     console.log(meetingMessage);
 
 
